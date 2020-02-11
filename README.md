@@ -1,8 +1,11 @@
 # RaceTest
 
-- import SQL file
-- change DB configuration on functions.php
-- make sure rewriteUrl is active on your Apache web server
+A simple web race example based on [https://blog.tomecek.net/post/test-race-conditions/](https://blog.tomecek.net/post/test-race-conditions/)
+
+- Download or clone to your web server
+- Import SQL file
+- Change DB configuration on functions.php
+- Make sure rewriteUrl is active on your Apache web server
 
 
 ### How to test
@@ -10,6 +13,8 @@
 
 
 ### Test result
+
+Different amount in 4 times test, even with same initial amount (1000000)
 
 ![1st try](https://github.com/hermanka/RaceTest/blob/master/screenshot/1.PNG)
 
