@@ -11,7 +11,7 @@
 
 ### Test result
 
-[1st try](https://github.com/hermanka/RaceTest/blob/master/screenshot/1.PNG)
+![1st try](https://github.com/hermanka/RaceTest/blob/master/screenshot/1.PNG)
 
 
 
