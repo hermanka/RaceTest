@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^([^/]+)/?$ $1.php [L]
+
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/?$ $1.php?id=$2&amount=$3 [L,QSA]
