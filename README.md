@@ -12,7 +12,7 @@ A simple web race example based on [https://blog.tomecek.net/post/test-race-cond
 - run test.sh
 
 
-### Test result
+### Test results
 
 Different amount in 4 times test, even with same initial amount (1000000)
 
