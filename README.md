@@ -3,7 +3,7 @@
 A simple web race example based on [https://blog.tomecek.net/post/test-race-conditions/](https://blog.tomecek.net/post/test-race-conditions/)
 
 - Download or clone to your web server
-- Import SQL file
+- Import racetestDB.sql to your local db machine
 - Change DB configuration on functions.php
 - Make sure rewriteUrl is active on your Apache web server
 
